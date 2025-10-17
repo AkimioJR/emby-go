@@ -895,10 +895,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -1690,10 +1690,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -1748,10 +1748,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -1814,10 +1814,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Collections.CollectionCreationResult'
+                $ref: "#/components/schemas/Collections.CollectionCreationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Collections.CollectionCreationResult'
+                $ref: "#/components/schemas/Collections.CollectionCreationResult"
           description: Operation successful. Returning a CollectionCreationResult
             object.
         "400":
@@ -2609,10 +2609,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -2659,10 +2659,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_Devices.DeviceInfo'
+                $ref: "#/components/schemas/QueryResult_Devices.DeviceInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_Devices.DeviceInfo'
+                $ref: "#/components/schemas/QueryResult_Devices.DeviceInfo"
           description: Operation successful. Returning a QueryResult<DeviceInfo> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -3456,10 +3456,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -4254,10 +4254,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -5084,10 +5084,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -5882,10 +5882,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -6677,10 +6677,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.OfficialRatingItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.OfficialRatingItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.OfficialRatingItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.OfficialRatingItem"
           description: Operation successful. Returning a QueryResult<OfficialRatingItem>
             object.
         "400":
@@ -6790,12 +6790,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Updates.PackageInfo'
+                  $ref: "#/components/schemas/Updates.PackageInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Updates.PackageInfo'
+                  $ref: "#/components/schemas/Updates.PackageInfo"
                 type: array
           description: "Operation successful. Returning a PackageInfo[] object."
         "400":
@@ -7590,10 +7590,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -7648,10 +7648,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Playlists.PlaylistCreationResult'
+                $ref: "#/components/schemas/Playlists.PlaylistCreationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Playlists.PlaylistCreationResult'
+                $ref: "#/components/schemas/Playlists.PlaylistCreationResult"
           description: Operation successful. Returning a PlaylistCreationResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -7681,12 +7681,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Plugins.PluginInfo'
+                  $ref: "#/components/schemas/Plugins.PluginInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Plugins.PluginInfo'
+                  $ref: "#/components/schemas/Plugins.PluginInfo"
                 type: array
           description: "Operation successful. Returning a PluginInfo[] object."
         "400":
@@ -7736,12 +7736,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Tasks.TaskInfo'
+                  $ref: "#/components/schemas/Tasks.TaskInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Tasks.TaskInfo'
+                  $ref: "#/components/schemas/Tasks.TaskInfo"
                 type: array
           description: "Operation successful. Returning a TaskInfo[] object."
         "400":
@@ -7790,12 +7790,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Session.SessionInfo'
+                  $ref: "#/components/schemas/Session.SessionInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Session.SessionInfo'
+                  $ref: "#/components/schemas/Session.SessionInfo"
                 type: array
           description: "Operation successful. Returning a SessionInfo[] object."
         "400":
@@ -8590,10 +8590,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -9385,10 +9385,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -10222,10 +10222,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -11012,10 +11012,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -11065,12 +11065,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/UserDto'
+                  $ref: "#/components/schemas/UserDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/UserDto'
+                  $ref: "#/components/schemas/UserDto"
                 type: array
           description: "Operation successful. Returning a UserDto[] object."
         "400":
@@ -11862,10 +11862,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -12649,10 +12649,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_UserLibrary.TagItem'
+                $ref: "#/components/schemas/QueryResult_UserLibrary.TagItem"
           description: Operation successful. Returning a QueryResult<TagItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -13066,10 +13066,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -13863,10 +13863,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -14659,12 +14659,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameValuePair'
+                  $ref: "#/components/schemas/NameValuePair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameValuePair'
+                  $ref: "#/components/schemas/NameValuePair"
                 type: array
           description: "Operation successful. Returning a NameValuePair[] object."
         "400":
@@ -14775,10 +14775,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -14809,12 +14809,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
           description: "Operation successful. Returning a NameIdPair[] object."
         "400":
@@ -14896,10 +14896,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Branding.BrandingOptions'
+                $ref: "#/components/schemas/Branding.BrandingOptions"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Branding.BrandingOptions'
+                $ref: "#/components/schemas/Branding.BrandingOptions"
           description: Operation successful. Returning a BrandingOptions object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -14991,10 +14991,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Connect.ConnectAuthenticationExchangeResult'
+                $ref: "#/components/schemas/Connect.ConnectAuthenticationExchangeResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Connect.ConnectAuthenticationExchangeResult'
+                $ref: "#/components/schemas/Connect.ConnectAuthenticationExchangeResult"
           description: Operation successful. Returning a ConnectAuthenticationExchangeResult
             object.
         "400":
@@ -15033,10 +15033,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Devices.DeviceOptions'
+                $ref: "#/components/schemas/Devices.DeviceOptions"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Devices.DeviceOptions'
+                $ref: "#/components/schemas/Devices.DeviceOptions"
           description: Operation successful. Returning a DeviceOptions object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15062,10 +15062,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Devices.DeviceOptions'
+              $ref: "#/components/schemas/Devices.DeviceOptions"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Devices.DeviceOptions'
+              $ref: "#/components/schemas/Devices.DeviceOptions"
         description: "DeviceOptions: "
         required: true
       responses:
@@ -15107,10 +15107,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Devices.DeviceInfo'
+                $ref: "#/components/schemas/Devices.DeviceInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Devices.DeviceInfo'
+                $ref: "#/components/schemas/Devices.DeviceInfo"
           description: Operation successful. Returning a DeviceInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15148,10 +15148,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Devices.ContentUploadHistory'
+                $ref: "#/components/schemas/Devices.ContentUploadHistory"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Devices.ContentUploadHistory'
+                $ref: "#/components/schemas/Devices.ContentUploadHistory"
           description: Operation successful. Returning a ContentUploadHistory object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15269,10 +15269,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/DisplayPreferences'
+                $ref: "#/components/schemas/DisplayPreferences"
             application/xml:
               schema:
-                $ref: '#/components/schemas/DisplayPreferences'
+                $ref: "#/components/schemas/DisplayPreferences"
           description: Operation successful. Returning a DisplayPreferences object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15317,10 +15317,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/DisplayPreferences'
+              $ref: "#/components/schemas/DisplayPreferences"
           application/xml:
             schema:
-              $ref: '#/components/schemas/DisplayPreferences'
+              $ref: "#/components/schemas/DisplayPreferences"
         description: "DisplayPreferences: "
         required: true
       responses:
@@ -15354,12 +15354,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Dlna.DeviceProfileInfo'
+                  $ref: "#/components/schemas/Dlna.DeviceProfileInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Dlna.DeviceProfileInfo'
+                  $ref: "#/components/schemas/Dlna.DeviceProfileInfo"
                 type: array
           description: "Operation successful. Returning a DeviceProfileInfo[] object."
         "400":
@@ -15388,10 +15388,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Dlna.DeviceProfile'
+              $ref: "#/components/schemas/Dlna.DeviceProfile"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Dlna.DeviceProfile'
+              $ref: "#/components/schemas/Dlna.DeviceProfile"
         description: "DeviceProfile: "
         required: true
       responses:
@@ -15431,10 +15431,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/ValidatePath'
+              $ref: "#/components/schemas/ValidatePath"
           application/xml:
             schema:
-              $ref: '#/components/schemas/ValidatePath'
+              $ref: "#/components/schemas/ValidatePath"
         description: ValidatePath
         required: true
       responses:
@@ -15467,10 +15467,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/DefaultDirectoryBrowserInfo'
+                $ref: "#/components/schemas/DefaultDirectoryBrowserInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/DefaultDirectoryBrowserInfo'
+                $ref: "#/components/schemas/DefaultDirectoryBrowserInfo"
           description: Operation successful. Returning a DefaultDirectoryBrowserInfo
             object.
         "400":
@@ -15527,12 +15527,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
           description: Operation successful. Returning a List<FileSystemEntryInfo>
             object.
@@ -15572,12 +15572,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
           description: Operation successful. Returning a List<FileSystemEntryInfo>
             object.
@@ -15609,12 +15609,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
           description: Operation successful. Returning a List<FileSystemEntryInfo>
             object.
@@ -15646,12 +15646,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/IO.FileSystemEntryInfo'
+                  $ref: "#/components/schemas/IO.FileSystemEntryInfo"
                 type: array
           description: Operation successful. Returning a List<FileSystemEntryInfo>
             object.
@@ -15743,10 +15743,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15786,12 +15786,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/GameSystemSummary'
+                  $ref: "#/components/schemas/GameSystemSummary"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/GameSystemSummary'
+                  $ref: "#/components/schemas/GameSystemSummary"
                 type: array
           description: "Operation successful. Returning a GameSystemSummary[] object."
         "400":
@@ -15842,10 +15842,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -15875,12 +15875,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
           description: Operation successful. Returning a List<ImageByNameInfo> object.
         "400":
@@ -15911,12 +15911,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
           description: Operation successful. Returning a List<ImageByNameInfo> object.
         "400":
@@ -15947,12 +15947,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageByNameInfo'
+                  $ref: "#/components/schemas/ImageByNameInfo"
                 type: array
           description: Operation successful. Returning a List<ImageByNameInfo> object.
         "400":
@@ -16045,10 +16045,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryFilters'
+                $ref: "#/components/schemas/QueryFilters"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryFilters'
+                $ref: "#/components/schemas/QueryFilters"
           description: Operation successful. Returning a QueryFilters object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -16116,10 +16116,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryFiltersLegacy'
+                $ref: "#/components/schemas/QueryFiltersLegacy"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryFiltersLegacy'
+                $ref: "#/components/schemas/QueryFiltersLegacy"
           description: Operation successful. Returning a QueryFiltersLegacy object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -16156,10 +16156,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/BaseItemDto'
+              $ref: "#/components/schemas/BaseItemDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/BaseItemDto'
+              $ref: "#/components/schemas/BaseItemDto"
         description: "BaseItemDto: "
         required: true
       responses:
@@ -16955,12 +16955,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameValuePair'
+                  $ref: "#/components/schemas/NameValuePair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameValuePair'
+                  $ref: "#/components/schemas/NameValuePair"
                 type: array
           description: "Operation successful. Returning a NameValuePair[] object."
         "400":
@@ -17002,10 +17002,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ItemCounts'
+                $ref: "#/components/schemas/ItemCounts"
             application/xml:
               schema:
-                $ref: '#/components/schemas/ItemCounts'
+                $ref: "#/components/schemas/ItemCounts"
           description: Operation successful. Returning a ItemCounts object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -17091,10 +17091,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Library.LibraryOptionsResult'
+                $ref: "#/components/schemas/Library.LibraryOptionsResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Library.LibraryOptionsResult'
+                $ref: "#/components/schemas/Library.LibraryOptionsResult"
           description: Operation successful. Returning a LibraryOptionsResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -17122,12 +17122,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Library.MediaFolder'
+                  $ref: "#/components/schemas/Library.MediaFolder"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Library.MediaFolder'
+                  $ref: "#/components/schemas/Library.MediaFolder"
                 type: array
           description: "Operation successful. Returning a MediaFolder[] object."
         "400":
@@ -17170,10 +17170,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -17287,12 +17287,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/VirtualFolderInfo'
+                  $ref: "#/components/schemas/VirtualFolderInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/VirtualFolderInfo'
+                  $ref: "#/components/schemas/VirtualFolderInfo"
                 type: array
           description: Operation successful. Returning a List<VirtualFolderInfo> object.
         "400":
@@ -17318,10 +17318,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.AddVirtualFolder'
+              $ref: "#/components/schemas/Library.AddVirtualFolder"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.AddVirtualFolder'
+              $ref: "#/components/schemas/Library.AddVirtualFolder"
         description: AddVirtualFolder
         required: true
       responses:
@@ -17351,10 +17351,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/MediaInfo.LiveStreamRequest'
+              $ref: "#/components/schemas/MediaInfo.LiveStreamRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/MediaInfo.LiveStreamRequest'
+              $ref: "#/components/schemas/MediaInfo.LiveStreamRequest"
         description: "LiveStreamRequest: "
         required: true
       responses:
@@ -17362,10 +17362,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MediaInfo.LiveStreamResponse'
+                $ref: "#/components/schemas/MediaInfo.LiveStreamResponse"
             application/xml:
               schema:
-                $ref: '#/components/schemas/MediaInfo.LiveStreamResponse'
+                $ref: "#/components/schemas/MediaInfo.LiveStreamResponse"
           description: Operation successful. Returning a LiveStreamResponse object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -17625,10 +17625,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.SetChannelMapping'
+              $ref: "#/components/schemas/LiveTv.SetChannelMapping"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.SetChannelMapping'
+              $ref: "#/components/schemas/LiveTv.SetChannelMapping"
         description: SetChannelMapping
         required: true
       responses:
@@ -17666,10 +17666,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.SetChannelMapping'
+              $ref: "#/components/schemas/LiveTv.SetChannelMapping"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.SetChannelMapping'
+              $ref: "#/components/schemas/LiveTv.SetChannelMapping"
         description: SetChannelMapping
         required: true
       responses:
@@ -18013,12 +18013,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                  $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                  $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
                 type: array
           description: "Operation successful. Returning a ListingsProviderInfo[] object."
         "400":
@@ -18045,10 +18045,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+              $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+              $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
         description: "ListingsProviderInfo: "
         required: true
       responses:
@@ -18056,10 +18056,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
           description: Operation successful. Returning a ListingsProviderInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -18121,12 +18121,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                  $ref: "#/components/schemas/LiveTv.TunerHostInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                  $ref: "#/components/schemas/LiveTv.TunerHostInfo"
                 type: array
           description: "Operation successful. Returning a TunerHostInfo[] object."
         "400":
@@ -18153,10 +18153,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+              $ref: "#/components/schemas/LiveTv.TunerHostInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+              $ref: "#/components/schemas/LiveTv.TunerHostInfo"
         description: "TunerHostInfo: "
         required: true
       responses:
@@ -18164,10 +18164,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                $ref: "#/components/schemas/LiveTv.TunerHostInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                $ref: "#/components/schemas/LiveTv.TunerHostInfo"
           description: Operation successful. Returning a TunerHostInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -18196,10 +18196,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.LiveTvInfo'
+                $ref: "#/components/schemas/LiveTv.LiveTvInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.LiveTvInfo'
+                $ref: "#/components/schemas/LiveTv.LiveTvInfo"
           description: Operation successful. Returning a LiveTvInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -18409,10 +18409,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -18644,10 +18644,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -18780,10 +18780,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.GetPrograms'
+              $ref: "#/components/schemas/LiveTv.GetPrograms"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.GetPrograms'
+              $ref: "#/components/schemas/LiveTv.GetPrograms"
         description: GetPrograms
         required: true
       responses:
@@ -18791,10 +18791,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -19669,10 +19669,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/QueryResult_LiveTv.TimerInfoDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/QueryResult_LiveTv.TimerInfoDto"
           description: Operation successful. Returning a QueryResult<TimerInfoDto>
             object.
         "400":
@@ -19699,10 +19699,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.TimerInfoDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.TimerInfoDto"
         description: "TimerInfoDto: "
         required: true
       responses:
@@ -19755,10 +19755,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_LiveTv.SeriesTimerInfoDto'
+                $ref: "#/components/schemas/QueryResult_LiveTv.SeriesTimerInfoDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_LiveTv.SeriesTimerInfoDto'
+                $ref: "#/components/schemas/QueryResult_LiveTv.SeriesTimerInfoDto"
           description: Operation successful. Returning a QueryResult<SeriesTimerInfoDto>
             object.
         "400":
@@ -19785,10 +19785,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
         description: "SeriesTimerInfoDto: "
         required: true
       responses:
@@ -19821,10 +19821,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.GuideInfo'
+                $ref: "#/components/schemas/LiveTv.GuideInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.GuideInfo'
+                $ref: "#/components/schemas/LiveTv.GuideInfo"
           description: Operation successful. Returning a GuideInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -19854,12 +19854,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ParentalRating'
+                  $ref: "#/components/schemas/ParentalRating"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ParentalRating'
+                  $ref: "#/components/schemas/ParentalRating"
                 type: array
           description: "Operation successful. Returning a ParentalRating[] object."
         "400":
@@ -19890,12 +19890,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.LocalizatonOption'
+                  $ref: "#/components/schemas/Globalization.LocalizatonOption"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.LocalizatonOption'
+                  $ref: "#/components/schemas/Globalization.LocalizatonOption"
                 type: array
           description: "Operation successful. Returning a LocalizatonOption[] object."
         "400":
@@ -19926,12 +19926,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.CountryInfo'
+                  $ref: "#/components/schemas/Globalization.CountryInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.CountryInfo'
+                  $ref: "#/components/schemas/Globalization.CountryInfo"
                 type: array
           description: "Operation successful. Returning a CountryInfo[] object."
         "400":
@@ -19962,12 +19962,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.CultureDto'
+                  $ref: "#/components/schemas/Globalization.CultureDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Globalization.CultureDto'
+                  $ref: "#/components/schemas/Globalization.CultureDto"
                 type: array
           description: "Operation successful. Returning a CultureDto[] object."
         "400":
@@ -20071,12 +20071,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RecommendationDto'
+                  $ref: "#/components/schemas/RecommendationDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RecommendationDto'
+                  $ref: "#/components/schemas/RecommendationDto"
                 type: array
           description: "Operation successful. Returning a RecommendationDto[] object."
         "400":
@@ -20127,10 +20127,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20247,10 +20247,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -20302,10 +20302,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_News.NewsItem'
+                $ref: "#/components/schemas/QueryResult_News.NewsItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_News.NewsItem'
+                $ref: "#/components/schemas/QueryResult_News.NewsItem"
           description: Operation successful. Returning a QueryResult<NewsItem> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20328,12 +20328,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Notifications.NotificationTypeInfo'
+                  $ref: "#/components/schemas/Notifications.NotificationTypeInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Notifications.NotificationTypeInfo'
+                  $ref: "#/components/schemas/Notifications.NotificationTypeInfo"
                 type: array
           description: Operation successful. Returning a List<NotificationTypeInfo>
             object.
@@ -20365,12 +20365,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
           description: Operation successful. Returning a List<NameIdPair> object.
         "400":
@@ -20509,10 +20509,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Emby.Notifications.Api.NotificationResult'
+                $ref: "#/components/schemas/Emby.Notifications.Api.NotificationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Emby.Notifications.Api.NotificationResult'
+                $ref: "#/components/schemas/Emby.Notifications.Api.NotificationResult"
           description: Operation successful. Returning a NotificationResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20551,12 +20551,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Updates.PackageVersionInfo'
+                  $ref: "#/components/schemas/Updates.PackageVersionInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Updates.PackageVersionInfo'
+                  $ref: "#/components/schemas/Updates.PackageVersionInfo"
                 type: array
           description: "Operation successful. Returning a PackageVersionInfo[] object."
         "400":
@@ -20603,10 +20603,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Updates.PackageInfo'
+                $ref: "#/components/schemas/Updates.PackageInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Updates.PackageInfo'
+                $ref: "#/components/schemas/Updates.PackageInfo"
           description: Operation successful. Returning a PackageInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20656,10 +20656,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20826,10 +20826,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/EmbyReports.Api.Model.ReportResult'
+                $ref: "#/components/schemas/EmbyReports.Api.Model.ReportResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/EmbyReports.Api.Model.ReportResult'
+                $ref: "#/components/schemas/EmbyReports.Api.Model.ReportResult"
           description: Operation successful. Returning a ReportResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -20886,12 +20886,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/EmbyReports.Api.Model.ReportHeader'
+                  $ref: "#/components/schemas/EmbyReports.Api.Model.ReportHeader"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/EmbyReports.Api.Model.ReportHeader'
+                  $ref: "#/components/schemas/EmbyReports.Api.Model.ReportHeader"
                 type: array
           description: Operation successful. Returning a List<ReportHeader> object.
         "400":
@@ -21665,10 +21665,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/EmbyReports.Api.Model.ReportResult'
+                $ref: "#/components/schemas/EmbyReports.Api.Model.ReportResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/EmbyReports.Api.Model.ReportResult'
+                $ref: "#/components/schemas/EmbyReports.Api.Model.ReportResult"
           description: Operation successful. Returning a ReportResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -21698,10 +21698,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Tasks.TaskInfo'
+                $ref: "#/components/schemas/Tasks.TaskInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Tasks.TaskInfo'
+                $ref: "#/components/schemas/Tasks.TaskInfo"
           description: Operation successful. Returning a TaskInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -21876,10 +21876,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Search.SearchHintResult'
+                $ref: "#/components/schemas/Search.SearchHintResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Search.SearchHintResult'
+                $ref: "#/components/schemas/Search.SearchHintResult"
           description: Operation successful. Returning a SearchHintResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22013,10 +22013,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PlaybackStartInfo'
+              $ref: "#/components/schemas/PlaybackStartInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/PlaybackStartInfo'
+              $ref: "#/components/schemas/PlaybackStartInfo"
         description: "PlaybackStartInfo: "
         required: true
       responses:
@@ -22140,10 +22140,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -22271,10 +22271,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -22325,10 +22325,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22367,12 +22367,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Sync.SyncTarget'
+                  $ref: "#/components/schemas/Sync.SyncTarget"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Sync.SyncTarget'
+                  $ref: "#/components/schemas/Sync.SyncTarget"
                 type: array
           description: Operation successful. Returning a List<SyncTarget> object.
         "400":
@@ -22402,10 +22402,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_Sync.SyncJob'
+                $ref: "#/components/schemas/QueryResult_Sync.SyncJob"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_Sync.SyncJob'
+                $ref: "#/components/schemas/QueryResult_Sync.SyncJob"
           description: Operation successful. Returning a QueryResult<SyncJob> object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22431,10 +22431,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncJobRequest'
+              $ref: "#/components/schemas/Sync.Model.SyncJobRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncJobRequest'
+              $ref: "#/components/schemas/Sync.Model.SyncJobRequest"
         description: "SyncJobRequest: "
         required: true
       responses:
@@ -22442,10 +22442,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncJobCreationResult'
+                $ref: "#/components/schemas/Sync.Model.SyncJobCreationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncJobCreationResult'
+                $ref: "#/components/schemas/Sync.Model.SyncJobCreationResult"
           description: Operation successful. Returning a SyncJobCreationResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22474,10 +22474,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_Sync.Model.SyncJobItem'
+                $ref: "#/components/schemas/QueryResult_Sync.Model.SyncJobItem"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_Sync.Model.SyncJobItem'
+                $ref: "#/components/schemas/QueryResult_Sync.Model.SyncJobItem"
           description: Operation successful. Returning a QueryResult<SyncJobItem>
             object.
         "400":
@@ -22552,10 +22552,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncDialogOptions'
+                $ref: "#/components/schemas/Sync.Model.SyncDialogOptions"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncDialogOptions'
+                $ref: "#/components/schemas/Sync.Model.SyncDialogOptions"
           description: Operation successful. Returning a SyncDialogOptions object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22584,12 +22584,12 @@ paths:
           application/json:
             schema:
               items:
-                $ref: '#/components/schemas/Users.UserAction'
+                $ref: "#/components/schemas/Users.UserAction"
               type: array
           application/xml:
             schema:
               items:
-                $ref: '#/components/schemas/Users.UserAction'
+                $ref: "#/components/schemas/Users.UserAction"
               type: array
         description: "List`1: "
         required: true
@@ -22622,10 +22622,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncDataRequest'
+              $ref: "#/components/schemas/Sync.Model.SyncDataRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncDataRequest'
+              $ref: "#/components/schemas/Sync.Model.SyncDataRequest"
         description: "SyncDataRequest: "
         required: true
       responses:
@@ -22633,10 +22633,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncDataResponse'
+                $ref: "#/components/schemas/Sync.Model.SyncDataResponse"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Sync.Model.SyncDataResponse'
+                $ref: "#/components/schemas/Sync.Model.SyncDataResponse"
           description: Operation successful. Returning a SyncDataResponse object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22665,10 +22665,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Configuration.ServerConfiguration'
+                $ref: "#/components/schemas/Configuration.ServerConfiguration"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Configuration.ServerConfiguration'
+                $ref: "#/components/schemas/Configuration.ServerConfiguration"
           description: Operation successful. Returning a ServerConfiguration object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22694,10 +22694,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Configuration.ServerConfiguration'
+              $ref: "#/components/schemas/Configuration.ServerConfiguration"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Configuration.ServerConfiguration'
+              $ref: "#/components/schemas/Configuration.ServerConfiguration"
         description: "ServerConfiguration: "
         required: true
       responses:
@@ -22762,12 +22762,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/WakeOnLanInfo'
+                  $ref: "#/components/schemas/WakeOnLanInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/WakeOnLanInfo'
+                  $ref: "#/components/schemas/WakeOnLanInfo"
                 type: array
           description: "Operation successful. Returning a WakeOnLanInfo[] object."
         "400":
@@ -22798,12 +22798,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/LogFile'
+                  $ref: "#/components/schemas/LogFile"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/LogFile'
+                  $ref: "#/components/schemas/LogFile"
                 type: array
           description: "Operation successful. Returning a LogFile[] object."
         "400":
@@ -22833,10 +22833,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/SystemInfo'
+                $ref: "#/components/schemas/SystemInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/SystemInfo'
+                $ref: "#/components/schemas/SystemInfo"
           description: Operation successful. Returning a SystemInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22915,10 +22915,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Net.EndPointInfo'
+                $ref: "#/components/schemas/Net.EndPointInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Net.EndPointInfo'
+                $ref: "#/components/schemas/Net.EndPointInfo"
           description: Operation successful. Returning a EndPointInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -22951,12 +22951,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/UserDto'
+                  $ref: "#/components/schemas/UserDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/UserDto'
+                  $ref: "#/components/schemas/UserDto"
                 type: array
           description: "Operation successful. Returning a UserDto[] object."
         "400":
@@ -23018,10 +23018,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserDto'
+                $ref: "#/components/schemas/UserDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserDto'
+                $ref: "#/components/schemas/UserDto"
           description: Operation successful. Returning a UserDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -23056,10 +23056,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UserDto'
+              $ref: "#/components/schemas/UserDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/UserDto'
+              $ref: "#/components/schemas/UserDto"
         description: "UserDto: "
         required: true
       responses:
@@ -23112,10 +23112,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/AuthenticateUserByName'
+              $ref: "#/components/schemas/AuthenticateUserByName"
           application/xml:
             schema:
-              $ref: '#/components/schemas/AuthenticateUserByName'
+              $ref: "#/components/schemas/AuthenticateUserByName"
         description: AuthenticateUserByName
         required: true
       responses:
@@ -23123,10 +23123,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Authentication.AuthenticationResult'
+                $ref: "#/components/schemas/Authentication.AuthenticationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Authentication.AuthenticationResult'
+                $ref: "#/components/schemas/Authentication.AuthenticationResult"
           description: Operation successful. Returning a AuthenticationResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -23151,10 +23151,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/CreateUserByName'
+              $ref: "#/components/schemas/CreateUserByName"
           application/xml:
             schema:
-              $ref: '#/components/schemas/CreateUserByName'
+              $ref: "#/components/schemas/CreateUserByName"
         description: CreateUserByName
         required: true
       responses:
@@ -23162,10 +23162,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserDto'
+                $ref: "#/components/schemas/UserDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserDto'
+                $ref: "#/components/schemas/UserDto"
           description: Operation successful. Returning a UserDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -23193,10 +23193,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/ForgotPassword'
+              $ref: "#/components/schemas/ForgotPassword"
           application/xml:
             schema:
-              $ref: '#/components/schemas/ForgotPassword'
+              $ref: "#/components/schemas/ForgotPassword"
         description: ForgotPassword
         required: true
       responses:
@@ -23204,10 +23204,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Users.ForgotPasswordResult'
+                $ref: "#/components/schemas/Users.ForgotPasswordResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Users.ForgotPasswordResult'
+                $ref: "#/components/schemas/Users.ForgotPasswordResult"
           description: Operation successful. Returning a ForgotPasswordResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -23653,10 +23653,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/playback_reporting.Api.CustomQuery'
+              $ref: "#/components/schemas/playback_reporting.Api.CustomQuery"
           application/xml:
             schema:
-              $ref: '#/components/schemas/playback_reporting.Api.CustomQuery'
+              $ref: "#/components/schemas/playback_reporting.Api.CustomQuery"
         description: CustomQuery
         required: true
       responses:
@@ -23925,12 +23925,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/WebDashboard.Api.ConfigurationPageInfo'
+                  $ref: "#/components/schemas/WebDashboard.Api.ConfigurationPageInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/WebDashboard.Api.ConfigurationPageInfo'
+                  $ref: "#/components/schemas/WebDashboard.Api.ConfigurationPageInfo"
                 type: array
           description: Operation successful. Returning a List<ConfigurationPageInfo>
             object.
@@ -24040,10 +24040,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -24161,10 +24161,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -24282,10 +24282,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -27004,10 +27004,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Dlna.DeviceProfile'
+                $ref: "#/components/schemas/Dlna.DeviceProfile"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Dlna.DeviceProfile'
+                $ref: "#/components/schemas/Dlna.DeviceProfile"
           description: Operation successful. Returning a DeviceProfile object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -27041,10 +27041,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Dlna.DeviceProfile'
+              $ref: "#/components/schemas/Dlna.DeviceProfile"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Dlna.DeviceProfile'
+              $ref: "#/components/schemas/Dlna.DeviceProfile"
         description: "DeviceProfile: "
         required: true
       responses:
@@ -27077,10 +27077,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Dlna.DeviceProfile'
+                $ref: "#/components/schemas/Dlna.DeviceProfile"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Dlna.DeviceProfile'
+                $ref: "#/components/schemas/Dlna.DeviceProfile"
           description: Operation successful. Returning a DeviceProfile object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -27110,12 +27110,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/MediaEncoding.Codecs.VideoCodecs.VideoCodecBase'
+                  $ref: "#/components/schemas/MediaEncoding.Codecs.VideoCodecs.VideoCodecBase"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/MediaEncoding.Codecs.VideoCodecs.VideoCodecBase'
+                  $ref: "#/components/schemas/MediaEncoding.Codecs.VideoCodecs.VideoCodecBase"
                 type: array
           description: "Operation successful. Returning a VideoCodecBase[] object."
         "400":
@@ -27146,12 +27146,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Configuration.CodecConfiguration'
+                  $ref: "#/components/schemas/Configuration.CodecConfiguration"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Configuration.CodecConfiguration'
+                  $ref: "#/components/schemas/Configuration.CodecConfiguration"
                 type: array
           description: "Operation successful. Returning a CodecConfiguration[] object."
         "400":
@@ -27269,10 +27269,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -27312,12 +27312,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ExternalIdInfo'
+                  $ref: "#/components/schemas/ExternalIdInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ExternalIdInfo'
+                  $ref: "#/components/schemas/ExternalIdInfo"
                 type: array
           description: Operation successful. Returning a List<ExternalIdInfo> object.
         "400":
@@ -27346,10 +27346,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.TrailerInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.TrailerInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.TrailerInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.TrailerInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27358,12 +27358,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27391,10 +27391,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.BookInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.BookInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.BookInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.BookInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27403,12 +27403,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27436,10 +27436,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.MovieInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.MovieInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.MovieInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.MovieInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27448,12 +27448,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27481,10 +27481,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.SeriesInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.SeriesInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.SeriesInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.SeriesInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27493,12 +27493,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27526,10 +27526,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.GameInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.GameInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.GameInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.GameInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27538,12 +27538,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27571,10 +27571,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.BoxSetInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.BoxSetInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.BoxSetInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.BoxSetInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27583,12 +27583,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27616,10 +27616,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.MusicVideoInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.MusicVideoInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.MusicVideoInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.MusicVideoInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27628,12 +27628,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27661,10 +27661,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.PersonLookupInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.PersonLookupInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.PersonLookupInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.PersonLookupInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27673,12 +27673,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27706,10 +27706,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.AlbumInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.AlbumInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.AlbumInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.AlbumInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27718,12 +27718,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27751,10 +27751,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.ArtistInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.ArtistInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Providers.RemoteSearchQuery_Providers.ArtistInfo'
+              $ref: "#/components/schemas/Providers.RemoteSearchQuery_Providers.ArtistInfo"
         description: "RemoteSearchQuery`1: "
         required: true
       responses:
@@ -27763,12 +27763,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSearchResult'
+                  $ref: "#/components/schemas/RemoteSearchResult"
                 type: array
           description: Operation successful. Returning a List<RemoteSearchResult>
             object.
@@ -27922,10 +27922,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MetadataEditorInfo'
+                $ref: "#/components/schemas/MetadataEditorInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/MetadataEditorInfo'
+                $ref: "#/components/schemas/MetadataEditorInfo"
           description: Operation successful. Returning a MetadataEditorInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28042,10 +28042,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -28084,10 +28084,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Library.DeleteInfo'
+                $ref: "#/components/schemas/Library.DeleteInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Library.DeleteInfo'
+                $ref: "#/components/schemas/Library.DeleteInfo"
           description: Operation successful. Returning a DeleteInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28204,10 +28204,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -28327,12 +28327,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -28395,10 +28395,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -28455,10 +28455,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/AllThemeMediaResult'
+                $ref: "#/components/schemas/AllThemeMediaResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/AllThemeMediaResult'
+                $ref: "#/components/schemas/AllThemeMediaResult"
           description: Operation successful. Returning a AllThemeMediaResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28514,10 +28514,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ThemeMediaResult'
+                $ref: "#/components/schemas/ThemeMediaResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/ThemeMediaResult'
+                $ref: "#/components/schemas/ThemeMediaResult"
           description: Operation successful. Returning a ThemeMediaResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28573,10 +28573,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ThemeMediaResult'
+                $ref: "#/components/schemas/ThemeMediaResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/ThemeMediaResult'
+                $ref: "#/components/schemas/ThemeMediaResult"
           description: Operation successful. Returning a ThemeMediaResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28615,12 +28615,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageInfo'
+                  $ref: "#/components/schemas/ImageInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageInfo'
+                  $ref: "#/components/schemas/ImageInfo"
                 type: array
           description: Operation successful. Returning a List<ImageInfo> object.
         "400":
@@ -28718,10 +28718,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RemoteImageResult'
+                $ref: "#/components/schemas/RemoteImageResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/RemoteImageResult'
+                $ref: "#/components/schemas/RemoteImageResult"
           description: Operation successful. Returning a RemoteImageResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28767,10 +28767,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RokuMetadata.Api.ThumbnailSetInfo'
+                $ref: "#/components/schemas/RokuMetadata.Api.ThumbnailSetInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/RokuMetadata.Api.ThumbnailSetInfo'
+                $ref: "#/components/schemas/RokuMetadata.Api.ThumbnailSetInfo"
           description: Operation successful. Returning a ThumbnailSetInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28814,10 +28814,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MediaInfo.PlaybackInfoResponse'
+                $ref: "#/components/schemas/MediaInfo.PlaybackInfoResponse"
             application/xml:
               schema:
-                $ref: '#/components/schemas/MediaInfo.PlaybackInfoResponse'
+                $ref: "#/components/schemas/MediaInfo.PlaybackInfoResponse"
           description: Operation successful. Returning a PlaybackInfoResponse object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28851,10 +28851,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/MediaInfo.PlaybackInfoRequest'
+              $ref: "#/components/schemas/MediaInfo.PlaybackInfoRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/MediaInfo.PlaybackInfoRequest'
+              $ref: "#/components/schemas/MediaInfo.PlaybackInfoRequest"
         description: "PlaybackInfoRequest: "
         required: true
       responses:
@@ -28862,10 +28862,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MediaInfo.PlaybackInfoResponse'
+                $ref: "#/components/schemas/MediaInfo.PlaybackInfoResponse"
             application/xml:
               schema:
-                $ref: '#/components/schemas/MediaInfo.PlaybackInfoResponse'
+                $ref: "#/components/schemas/MediaInfo.PlaybackInfoResponse"
           description: Operation successful. Returning a PlaybackInfoResponse object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -28943,10 +28943,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.PostUpdatedMedia'
+              $ref: "#/components/schemas/Library.PostUpdatedMedia"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.PostUpdatedMedia'
+              $ref: "#/components/schemas/Library.PostUpdatedMedia"
         description: PostUpdatedMedia
         required: true
       responses:
@@ -29028,10 +29028,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.UpdateLibraryOptions'
+              $ref: "#/components/schemas/Library.UpdateLibraryOptions"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.UpdateLibraryOptions'
+              $ref: "#/components/schemas/Library.UpdateLibraryOptions"
         description: UpdateLibraryOptions
         required: true
       responses:
@@ -29061,10 +29061,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.RenameVirtualFolder'
+              $ref: "#/components/schemas/Library.RenameVirtualFolder"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.RenameVirtualFolder'
+              $ref: "#/components/schemas/Library.RenameVirtualFolder"
         description: RenameVirtualFolder
         required: true
       responses:
@@ -29116,10 +29116,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.AddMediaPath'
+              $ref: "#/components/schemas/Library.AddMediaPath"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.AddMediaPath'
+              $ref: "#/components/schemas/Library.AddMediaPath"
         description: AddMediaPath
         required: true
       responses:
@@ -29162,10 +29162,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -29195,12 +29195,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
           description: Operation successful. Returning a List<NameIdPair> object.
         "400":
@@ -29242,12 +29242,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -29278,12 +29278,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                  $ref: "#/components/schemas/LiveTv.TunerHostInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.TunerHostInfo'
+                  $ref: "#/components/schemas/LiveTv.TunerHostInfo"
                 type: array
           description: Operation successful. Returning a List<TunerHostInfo> object.
         "400":
@@ -29311,10 +29311,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.ListingsProviderInfo'
+                $ref: "#/components/schemas/LiveTv.ListingsProviderInfo"
           description: Operation successful. Returning a ListingsProviderInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -29375,12 +29375,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/NameIdPair'
+                  $ref: "#/components/schemas/NameIdPair"
                 type: array
           description: Operation successful. Returning a List<NameIdPair> object.
         "400":
@@ -29431,10 +29431,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -29606,10 +29606,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -29769,10 +29769,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -29855,10 +29855,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -29928,10 +29928,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.TimerInfoDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.TimerInfoDto"
           description: Operation successful. Returning a TimerInfoDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -29965,10 +29965,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.TimerInfoDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.TimerInfoDto"
         description: "TimerInfoDto: "
         required: true
       responses:
@@ -30042,10 +30042,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.TimerInfoDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.TimerInfoDto"
           description: Operation successful. Returning a TimerInfoDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -30079,10 +30079,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
           application/xml:
             schema:
-              $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+              $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
         description: "SeriesTimerInfoDto: "
         required: true
       responses:
@@ -30124,10 +30124,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+                $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
           description: Operation successful. Returning a SeriesTimerInfoDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -30168,10 +30168,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -30202,12 +30202,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.ListingProviderTypeInfo'
+                  $ref: "#/components/schemas/LiveTv.ListingProviderTypeInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/LiveTv.ListingProviderTypeInfo'
+                  $ref: "#/components/schemas/LiveTv.ListingProviderTypeInfo"
                 type: array
           description: "Operation successful. Returning a ListingProviderTypeInfo[]\
             \ object."
@@ -30326,10 +30326,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -30447,10 +30447,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -30489,10 +30489,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Emby.Notifications.Api.NotificationsSummary'
+                $ref: "#/components/schemas/Emby.Notifications.Api.NotificationsSummary"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Emby.Notifications.Api.NotificationsSummary'
+                $ref: "#/components/schemas/Emby.Notifications.Api.NotificationsSummary"
           description: Operation successful. Returning a NotificationsSummary object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -30828,10 +30828,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -30996,10 +30996,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -31972,12 +31972,12 @@ paths:
           application/json:
             schema:
               items:
-                $ref: '#/components/schemas/Tasks.TaskTriggerInfo'
+                $ref: "#/components/schemas/Tasks.TaskTriggerInfo"
               type: array
           application/xml:
             schema:
               items:
-                $ref: '#/components/schemas/Tasks.TaskTriggerInfo'
+                $ref: "#/components/schemas/Tasks.TaskTriggerInfo"
               type: array
         description: "List`1: "
         required: true
@@ -32175,10 +32175,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PlayRequest'
+              $ref: "#/components/schemas/PlayRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/PlayRequest'
+              $ref: "#/components/schemas/PlayRequest"
         description: "PlayRequest: "
         required: true
       responses:
@@ -32219,10 +32219,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/GeneralCommand'
+              $ref: "#/components/schemas/GeneralCommand"
           application/xml:
             schema:
-              $ref: '#/components/schemas/GeneralCommand'
+              $ref: "#/components/schemas/GeneralCommand"
         description: "GeneralCommand: "
         required: true
       responses:
@@ -32263,10 +32263,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/ClientCapabilities'
+              $ref: "#/components/schemas/ClientCapabilities"
           application/xml:
             schema:
-              $ref: '#/components/schemas/ClientCapabilities'
+              $ref: "#/components/schemas/ClientCapabilities"
         description: "ClientCapabilities: "
         required: true
       responses:
@@ -32301,10 +32301,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PlaybackProgressInfo'
+              $ref: "#/components/schemas/PlaybackProgressInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/PlaybackProgressInfo'
+              $ref: "#/components/schemas/PlaybackProgressInfo"
         description: "PlaybackProgressInfo: "
         required: true
       responses:
@@ -32372,10 +32372,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PlaybackStopInfo'
+              $ref: "#/components/schemas/PlaybackStopInfo"
           application/xml:
             schema:
-              $ref: '#/components/schemas/PlaybackStopInfo'
+              $ref: "#/components/schemas/PlaybackStopInfo"
         description: "PlaybackStopInfo: "
         required: true
       responses:
@@ -32503,10 +32503,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -32691,10 +32691,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -32812,10 +32812,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -32933,10 +32933,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -32973,10 +32973,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncedItemProgress'
+              $ref: "#/components/schemas/Sync.Model.SyncedItemProgress"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Sync.Model.SyncedItemProgress'
+              $ref: "#/components/schemas/Sync.Model.SyncedItemProgress"
         description: "SyncedItemProgress: "
         required: true
       responses:
@@ -33050,10 +33050,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Sync.SyncJob'
+                $ref: "#/components/schemas/Sync.SyncJob"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Sync.SyncJob'
+                $ref: "#/components/schemas/Sync.SyncJob"
           description: Operation successful. Returning a SyncJob object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -33088,10 +33088,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Sync.SyncJob'
+              $ref: "#/components/schemas/Sync.SyncJob"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Sync.SyncJob'
+              $ref: "#/components/schemas/Sync.SyncJob"
         description: "SyncJob: "
         required: true
       responses:
@@ -33202,12 +33202,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/Sync.Model.SyncedItem'
+                  $ref: "#/components/schemas/Sync.Model.SyncedItem"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/Sync.Model.SyncedItem'
+                  $ref: "#/components/schemas/Sync.Model.SyncedItem"
                 type: array
           description: Operation successful. Returning a List<SyncedItem> object.
         "400":
@@ -33375,10 +33375,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_ActivityLogEntry'
+                $ref: "#/components/schemas/QueryResult_ActivityLogEntry"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_ActivityLogEntry'
+                $ref: "#/components/schemas/QueryResult_ActivityLogEntry"
           description: Operation successful. Returning a QueryResult<ActivityLogEntry>
             object.
         "400":
@@ -33442,10 +33442,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/PublicSystemInfo'
+                $ref: "#/components/schemas/PublicSystemInfo"
             application/xml:
               schema:
-                $ref: '#/components/schemas/PublicSystemInfo'
+                $ref: "#/components/schemas/PublicSystemInfo"
           description: Operation successful. Returning a PublicSystemInfo object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -33555,10 +33555,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -33600,10 +33600,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -33636,10 +33636,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/AuthenticateUser'
+              $ref: "#/components/schemas/AuthenticateUser"
           application/xml:
             schema:
-              $ref: '#/components/schemas/AuthenticateUser'
+              $ref: "#/components/schemas/AuthenticateUser"
         description: AuthenticateUser
         required: true
       responses:
@@ -33647,10 +33647,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Authentication.AuthenticationResult'
+                $ref: "#/components/schemas/Authentication.AuthenticationResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Authentication.AuthenticationResult'
+                $ref: "#/components/schemas/Authentication.AuthenticationResult"
           description: Operation successful. Returning a AuthenticationResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -33679,10 +33679,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UpdateUserPassword'
+              $ref: "#/components/schemas/UpdateUserPassword"
           application/xml:
             schema:
-              $ref: '#/components/schemas/UpdateUserPassword'
+              $ref: "#/components/schemas/UpdateUserPassword"
         description: UpdateUserPassword
         required: true
       responses:
@@ -33722,10 +33722,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UpdateUserEasyPassword'
+              $ref: "#/components/schemas/UpdateUserEasyPassword"
           application/xml:
             schema:
-              $ref: '#/components/schemas/UpdateUserEasyPassword'
+              $ref: "#/components/schemas/UpdateUserEasyPassword"
         description: UpdateUserEasyPassword
         required: true
       responses:
@@ -33757,10 +33757,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/ForgotPasswordPin'
+              $ref: "#/components/schemas/ForgotPasswordPin"
           application/xml:
             schema:
-              $ref: '#/components/schemas/ForgotPasswordPin'
+              $ref: "#/components/schemas/ForgotPasswordPin"
         description: ForgotPasswordPin
         required: true
       responses:
@@ -33768,10 +33768,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Users.PinRedeemResult'
+                $ref: "#/components/schemas/Users.PinRedeemResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Users.PinRedeemResult'
+                $ref: "#/components/schemas/Users.PinRedeemResult"
           description: Operation successful. Returning a PinRedeemResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -33800,10 +33800,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Configuration.UserConfiguration'
+              $ref: "#/components/schemas/Configuration.UserConfiguration"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Configuration.UserConfiguration'
+              $ref: "#/components/schemas/Configuration.UserConfiguration"
         description: "UserConfiguration: "
         required: true
       responses:
@@ -33843,10 +33843,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Users.UserPolicy'
+              $ref: "#/components/schemas/Users.UserPolicy"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Users.UserPolicy'
+              $ref: "#/components/schemas/Users.UserPolicy"
         description: "UserPolicy: "
         required: true
       responses:
@@ -34644,10 +34644,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -34699,10 +34699,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -34737,12 +34737,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -34835,10 +34835,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -38906,10 +38906,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/RemoteSearchResult'
+              $ref: "#/components/schemas/RemoteSearchResult"
           application/xml:
             schema:
-              $ref: '#/components/schemas/RemoteSearchResult'
+              $ref: "#/components/schemas/RemoteSearchResult"
         description: "RemoteSearchResult: "
         required: true
       responses:
@@ -39455,12 +39455,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageProviderInfo'
+                  $ref: "#/components/schemas/ImageProviderInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/ImageProviderInfo'
+                  $ref: "#/components/schemas/ImageProviderInfo"
                 type: array
           description: Operation successful. Returning a List<ImageProviderInfo> object.
         "400":
@@ -39561,10 +39561,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Library.UpdateMediaPath'
+              $ref: "#/components/schemas/Library.UpdateMediaPath"
           application/xml:
             schema:
-              $ref: '#/components/schemas/Library.UpdateMediaPath'
+              $ref: "#/components/schemas/Library.UpdateMediaPath"
         description: UpdateMediaPath
         required: true
       responses:
@@ -39691,10 +39691,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -40583,10 +40583,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PlaystateRequest'
+              $ref: "#/components/schemas/PlaystateRequest"
           application/xml:
             schema:
-              $ref: '#/components/schemas/PlaystateRequest'
+              $ref: "#/components/schemas/PlaystateRequest"
         description: "PlaystateRequest: "
         required: true
       responses:
@@ -42133,10 +42133,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -42280,12 +42280,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -42336,10 +42336,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -42381,10 +42381,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/BaseItemDto'
+                $ref: "#/components/schemas/BaseItemDto"
           description: Operation successful. Returning a BaseItemDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -42431,10 +42431,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -42479,10 +42479,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -43037,10 +43037,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -43095,10 +43095,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -43360,10 +43360,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Connect.UserLinkResult'
+                $ref: "#/components/schemas/Connect.UserLinkResult"
             application/xml:
               schema:
-                $ref: '#/components/schemas/Connect.UserLinkResult'
+                $ref: "#/components/schemas/Connect.UserLinkResult"
           description: Operation successful. Returning a UserLinkResult object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -45337,12 +45337,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSubtitleInfo'
+                  $ref: "#/components/schemas/RemoteSubtitleInfo"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/RemoteSubtitleInfo'
+                  $ref: "#/components/schemas/RemoteSubtitleInfo"
                 type: array
           description: "Operation successful. Returning a RemoteSubtitleInfo[] object."
         "400":
@@ -47048,12 +47048,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -47105,12 +47105,12 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
             application/xml:
               schema:
                 items:
-                  $ref: '#/components/schemas/BaseItemDto'
+                  $ref: "#/components/schemas/BaseItemDto"
                 type: array
           description: "Operation successful. Returning a BaseItemDto[] object."
         "400":
@@ -47161,10 +47161,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/QueryResult_BaseItemDto'
+                $ref: "#/components/schemas/QueryResult_BaseItemDto"
           description: Operation successful. Returning a QueryResult<BaseItemDto>
             object.
         "400":
@@ -47212,10 +47212,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -47268,10 +47268,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
             application/xml:
               schema:
-                $ref: '#/components/schemas/UserItemDataDto'
+                $ref: "#/components/schemas/UserItemDataDto"
           description: Operation successful. Returning a UserItemDataDto object.
         "400":
           description: Bad Request. Server cannot process request.
@@ -50340,7 +50340,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/BaseItemDto'
+            $ref: "#/components/schemas/BaseItemDto"
           type: array
         TotalRecordCount:
           format: int32
@@ -50976,11 +50976,11 @@ components:
           type: string
         ExternalUrls:
           items:
-            $ref: '#/components/schemas/ExternalUrl'
+            $ref: "#/components/schemas/ExternalUrl"
           type: array
         MediaSources:
           items:
-            $ref: '#/components/schemas/MediaSourceInfo'
+            $ref: "#/components/schemas/MediaSourceInfo"
           type: array
         CriticRating:
           format: float
@@ -51053,7 +51053,7 @@ components:
           type: integer
         RemoteTrailers:
           items:
-            $ref: '#/components/schemas/MediaUrl'
+            $ref: "#/components/schemas/MediaUrl"
           type: array
         ProviderIds:
           additionalProperties:
@@ -51068,15 +51068,15 @@ components:
           type: string
         People:
           items:
-            $ref: '#/components/schemas/BaseItemPerson'
+            $ref: "#/components/schemas/BaseItemPerson"
           type: array
         Studios:
           items:
-            $ref: '#/components/schemas/NameLongIdPair'
+            $ref: "#/components/schemas/NameLongIdPair"
           type: array
         GenreItems:
           items:
-            $ref: '#/components/schemas/NameLongIdPair'
+            $ref: "#/components/schemas/NameLongIdPair"
           type: array
         ParentLogoItemId:
           type: string
@@ -51091,7 +51091,7 @@ components:
           nullable: true
           type: integer
         UserData:
-          $ref: '#/components/schemas/UserItemDataDto'
+          $ref: "#/components/schemas/UserItemDataDto"
         RecursiveItemCount:
           format: int32
           nullable: true
@@ -51142,7 +51142,7 @@ components:
           type: array
         ArtistItems:
           items:
-            $ref: '#/components/schemas/NameIdPair'
+            $ref: "#/components/schemas/NameIdPair"
           type: array
         Album:
           type: string
@@ -51160,13 +51160,13 @@ components:
           type: string
         AlbumArtists:
           items:
-            $ref: '#/components/schemas/NameIdPair'
+            $ref: "#/components/schemas/NameIdPair"
           type: array
         SeasonName:
           type: string
         MediaStreams:
           items:
-            $ref: '#/components/schemas/MediaStream'
+            $ref: "#/components/schemas/MediaStream"
           type: array
         PartCount:
           format: int32
@@ -51200,7 +51200,7 @@ components:
           type: string
         Chapters:
           items:
-            $ref: '#/components/schemas/ChapterInfo'
+            $ref: "#/components/schemas/ChapterInfo"
           type: array
         LocationType:
           enum:
@@ -51331,7 +51331,7 @@ components:
         TimerId:
           type: string
         CurrentProgram:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         MovieCount:
           format: int32
           nullable: true
@@ -51576,7 +51576,7 @@ components:
           type: string
         MediaStreams:
           items:
-            $ref: '#/components/schemas/MediaStream'
+            $ref: "#/components/schemas/MediaStream"
           type: array
         Formats:
           items:
@@ -51924,7 +51924,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/UserLibrary.TagItem'
+            $ref: "#/components/schemas/UserLibrary.TagItem"
           type: array
         TotalRecordCount:
           format: int32
@@ -51967,7 +51967,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/Devices.DeviceInfo'
+            $ref: "#/components/schemas/Devices.DeviceInfo"
           type: array
         TotalRecordCount:
           format: int32
@@ -52012,7 +52012,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/UserLibrary.OfficialRatingItem'
+            $ref: "#/components/schemas/UserLibrary.OfficialRatingItem"
           type: array
         TotalRecordCount:
           format: int32
@@ -52133,7 +52133,7 @@ components:
           type: string
         versions:
           items:
-            $ref: '#/components/schemas/Updates.PackageVersionInfo'
+            $ref: "#/components/schemas/Updates.PackageVersionInfo"
           type: array
         enableInAppStore:
           type: boolean
@@ -52259,10 +52259,10 @@ components:
         Id:
           type: string
         LastExecutionResult:
-          $ref: '#/components/schemas/Tasks.TaskResult'
+          $ref: "#/components/schemas/Tasks.TaskResult"
         Triggers:
           items:
-            $ref: '#/components/schemas/Tasks.TaskTriggerInfo'
+            $ref: "#/components/schemas/Tasks.TaskTriggerInfo"
           type: array
         Description:
           type: string
@@ -53195,13 +53195,13 @@ components:
         DeviceName: DeviceName
       properties:
         PlayState:
-          $ref: '#/components/schemas/PlayerStateInfo'
+          $ref: "#/components/schemas/PlayerStateInfo"
         AdditionalUsers:
           items:
-            $ref: '#/components/schemas/SessionUserInfo'
+            $ref: "#/components/schemas/SessionUserInfo"
           type: array
         Capabilities:
-          $ref: '#/components/schemas/ClientCapabilities'
+          $ref: "#/components/schemas/ClientCapabilities"
         RemoteEndPoint:
           type: string
         PlayableMediaTypes:
@@ -53230,7 +53230,7 @@ components:
         DeviceType:
           type: string
         NowPlayingItem:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         DeviceId:
           type: string
         ApplicationVersion:
@@ -53242,7 +53242,7 @@ components:
             type: string
           type: array
         TranscodingInfo:
-          $ref: '#/components/schemas/TranscodingInfo'
+          $ref: "#/components/schemas/TranscodingInfo"
         SupportsRemoteControl:
           type: boolean
       type: object
@@ -53547,7 +53547,7 @@ components:
         SupportsSync:
           type: boolean
         DeviceProfile:
-          $ref: '#/components/schemas/Dlna.DeviceProfile'
+          $ref: "#/components/schemas/Dlna.DeviceProfile"
         IconUrl:
           type: string
         AppId:
@@ -53762,7 +53762,7 @@ components:
         Id:
           type: string
         Identification:
-          $ref: '#/components/schemas/Dlna.DeviceIdentification'
+          $ref: "#/components/schemas/Dlna.DeviceIdentification"
         FriendlyName:
           type: string
         Manufacturer:
@@ -53838,31 +53838,31 @@ components:
           type: boolean
         XmlRootAttributes:
           items:
-            $ref: '#/components/schemas/Dlna.XmlAttribute'
+            $ref: "#/components/schemas/Dlna.XmlAttribute"
           type: array
         DirectPlayProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.DirectPlayProfile'
+            $ref: "#/components/schemas/Dlna.DirectPlayProfile"
           type: array
         TranscodingProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.TranscodingProfile'
+            $ref: "#/components/schemas/Dlna.TranscodingProfile"
           type: array
         ContainerProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.ContainerProfile'
+            $ref: "#/components/schemas/Dlna.ContainerProfile"
           type: array
         CodecProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.CodecProfile'
+            $ref: "#/components/schemas/Dlna.CodecProfile"
           type: array
         ResponseProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.ResponseProfile'
+            $ref: "#/components/schemas/Dlna.ResponseProfile"
           type: array
         SubtitleProfiles:
           items:
-            $ref: '#/components/schemas/Dlna.SubtitleProfile'
+            $ref: "#/components/schemas/Dlna.SubtitleProfile"
           type: array
       type: object
     Dlna.DeviceIdentification:
@@ -53904,7 +53904,7 @@ components:
           type: string
         Headers:
           items:
-            $ref: '#/components/schemas/Dlna.HttpHeaderInfo'
+            $ref: "#/components/schemas/Dlna.HttpHeaderInfo"
           type: array
       type: object
     Dlna.HttpHeaderInfo:
@@ -54037,7 +54037,7 @@ components:
           type: string
         Conditions:
           items:
-            $ref: '#/components/schemas/Dlna.ProfileCondition'
+            $ref: "#/components/schemas/Dlna.ProfileCondition"
           type: array
         Container:
           type: string
@@ -54120,11 +54120,11 @@ components:
           type: string
         Conditions:
           items:
-            $ref: '#/components/schemas/Dlna.ProfileCondition'
+            $ref: "#/components/schemas/Dlna.ProfileCondition"
           type: array
         ApplyConditions:
           items:
-            $ref: '#/components/schemas/Dlna.ProfileCondition'
+            $ref: "#/components/schemas/Dlna.ProfileCondition"
           type: array
         Codec:
           type: string
@@ -54167,7 +54167,7 @@ components:
           type: string
         Conditions:
           items:
-            $ref: '#/components/schemas/Dlna.ProfileCondition'
+            $ref: "#/components/schemas/Dlna.ProfileCondition"
           type: array
       type: object
     Dlna.SubtitleProfile:
@@ -54309,7 +54309,7 @@ components:
           type: number
         CpuHistory:
           items:
-            $ref: '#/components/schemas/Tuple_Double-Double'
+            $ref: "#/components/schemas/Tuple_Double-Double"
           type: array
         CurrentThrottle:
           format: int32
@@ -54485,9 +54485,9 @@ components:
           nullable: true
           type: string
         Configuration:
-          $ref: '#/components/schemas/Configuration.UserConfiguration'
+          $ref: "#/components/schemas/Configuration.UserConfiguration"
         Policy:
-          $ref: '#/components/schemas/Users.UserPolicy'
+          $ref: "#/components/schemas/Users.UserPolicy"
         PrimaryImageAspectRatio:
           format: double
           nullable: true
@@ -54650,7 +54650,7 @@ components:
           type: boolean
         AccessSchedules:
           items:
-            $ref: '#/components/schemas/Configuration.AccessSchedule'
+            $ref: "#/components/schemas/Configuration.AccessSchedule"
           type: array
         BlockUnratedItems:
           items:
@@ -54825,7 +54825,7 @@ components:
           type: string
         FilesUploaded:
           items:
-            $ref: '#/components/schemas/Devices.LocalFileInfo'
+            $ref: "#/components/schemas/Devices.LocalFileInfo"
           type: array
       type: object
     Devices.LocalFileInfo:
@@ -55016,11 +55016,11 @@ components:
       properties:
         Genres:
           items:
-            $ref: '#/components/schemas/NameLongIdPair'
+            $ref: "#/components/schemas/NameLongIdPair"
           type: array
         Studios:
           items:
-            $ref: '#/components/schemas/NameLongIdPair'
+            $ref: "#/components/schemas/NameLongIdPair"
           type: array
         Tags:
           items:
@@ -55183,19 +55183,19 @@ components:
       properties:
         MetadataSavers:
           items:
-            $ref: '#/components/schemas/Library.LibraryOptionInfo'
+            $ref: "#/components/schemas/Library.LibraryOptionInfo"
           type: array
         MetadataReaders:
           items:
-            $ref: '#/components/schemas/Library.LibraryOptionInfo'
+            $ref: "#/components/schemas/Library.LibraryOptionInfo"
           type: array
         SubtitleFetchers:
           items:
-            $ref: '#/components/schemas/Library.LibraryOptionInfo'
+            $ref: "#/components/schemas/Library.LibraryOptionInfo"
           type: array
         TypeOptions:
           items:
-            $ref: '#/components/schemas/Library.LibraryTypeOptions'
+            $ref: "#/components/schemas/Library.LibraryTypeOptions"
           type: array
       type: object
     Library.LibraryOptionInfo:
@@ -55236,11 +55236,11 @@ components:
           type: string
         MetadataFetchers:
           items:
-            $ref: '#/components/schemas/Library.LibraryOptionInfo'
+            $ref: "#/components/schemas/Library.LibraryOptionInfo"
           type: array
         ImageFetchers:
           items:
-            $ref: '#/components/schemas/Library.LibraryOptionInfo'
+            $ref: "#/components/schemas/Library.LibraryOptionInfo"
           type: array
         SupportedImageTypes:
           items:
@@ -55262,7 +55262,7 @@ components:
           type: array
         DefaultImageOptions:
           items:
-            $ref: '#/components/schemas/Configuration.ImageOption'
+            $ref: "#/components/schemas/Configuration.ImageOption"
           type: array
       type: object
     Configuration.ImageOption:
@@ -55312,7 +55312,7 @@ components:
           type: string
         SubFolders:
           items:
-            $ref: '#/components/schemas/Library.SubFolder'
+            $ref: "#/components/schemas/Library.SubFolder"
           type: array
       type: object
     Library.SubFolder:
@@ -55441,7 +55441,7 @@ components:
         CollectionType:
           type: string
         LibraryOptions:
-          $ref: '#/components/schemas/Configuration.LibraryOptions'
+          $ref: "#/components/schemas/Configuration.LibraryOptions"
         ItemId:
           type: string
         PrimaryImageItemId:
@@ -55561,7 +55561,7 @@ components:
           type: boolean
         PathInfos:
           items:
-            $ref: '#/components/schemas/Configuration.MediaPathInfo'
+            $ref: "#/components/schemas/Configuration.MediaPathInfo"
           type: array
         SaveLocalMetadata:
           type: boolean
@@ -55622,7 +55622,7 @@ components:
           type: boolean
         TypeOptions:
           items:
-            $ref: '#/components/schemas/Configuration.TypeOptions'
+            $ref: "#/components/schemas/Configuration.TypeOptions"
           type: array
         CollapseSingleItemFolders:
           type: boolean
@@ -55692,7 +55692,7 @@ components:
           type: array
         ImageOptions:
           items:
-            $ref: '#/components/schemas/Configuration.ImageOption'
+            $ref: "#/components/schemas/Configuration.ImageOption"
           type: array
       type: object
     Library.AddVirtualFolder:
@@ -55708,7 +55708,7 @@ components:
             type: string
           type: array
         LibraryOptions:
-          $ref: '#/components/schemas/Configuration.LibraryOptions'
+          $ref: "#/components/schemas/Configuration.LibraryOptions"
       type: object
     MediaInfo.LiveStreamRequest:
       properties:
@@ -55742,7 +55742,7 @@ components:
           format: int64
           type: integer
         DeviceProfile:
-          $ref: '#/components/schemas/Dlna.DeviceProfile'
+          $ref: "#/components/schemas/Dlna.DeviceProfile"
         EnableDirectPlay:
           type: boolean
         EnableDirectStream:
@@ -55900,7 +55900,7 @@ components:
           DefaultAudioStreamIndex: 9
       properties:
         MediaSource:
-          $ref: '#/components/schemas/MediaSourceInfo'
+          $ref: "#/components/schemas/MediaSourceInfo"
       type: object
     LiveTv.SetChannelMapping:
       properties:
@@ -55990,7 +55990,7 @@ components:
           type: array
         ChannelMappings:
           items:
-            $ref: '#/components/schemas/NameValuePair'
+            $ref: "#/components/schemas/NameValuePair"
           type: array
         MoviePrefix:
           type: string
@@ -56064,7 +56064,7 @@ components:
       properties:
         Services:
           items:
-            $ref: '#/components/schemas/LiveTv.LiveTvServiceInfo'
+            $ref: "#/components/schemas/LiveTv.LiveTvServiceInfo"
           type: array
         IsEnabled:
           type: boolean
@@ -57297,7 +57297,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/LiveTv.TimerInfoDto'
+            $ref: "#/components/schemas/LiveTv.TimerInfoDto"
           type: array
         TotalRecordCount:
           format: int32
@@ -57910,7 +57910,7 @@ components:
           nullable: true
           type: integer
         ProgramInfo:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         Id:
           type: string
         Type:
@@ -58057,7 +58057,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/LiveTv.SeriesTimerInfoDto'
+            $ref: "#/components/schemas/LiveTv.SeriesTimerInfoDto"
           type: array
         TotalRecordCount:
           format: int32
@@ -59397,7 +59397,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/BaseItemDto'
+            $ref: "#/components/schemas/BaseItemDto"
           type: array
         RecommendationType:
           enum:
@@ -59433,7 +59433,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/News.NewsItem'
+            $ref: "#/components/schemas/News.NewsItem"
           type: array
         TotalRecordCount:
           format: int32
@@ -59504,7 +59504,7 @@ components:
       properties:
         Notifications:
           items:
-            $ref: '#/components/schemas/Emby.Notifications.Api.Notification'
+            $ref: "#/components/schemas/Emby.Notifications.Api.Notification"
           type: array
         TotalRecordCount:
           format: int32
@@ -59697,15 +59697,15 @@ components:
       properties:
         Rows:
           items:
-            $ref: '#/components/schemas/EmbyReports.Api.Model.ReportRow'
+            $ref: "#/components/schemas/EmbyReports.Api.Model.ReportRow"
           type: array
         Headers:
           items:
-            $ref: '#/components/schemas/EmbyReports.Api.Model.ReportHeader'
+            $ref: "#/components/schemas/EmbyReports.Api.Model.ReportHeader"
           type: array
         Groups:
           items:
-            $ref: '#/components/schemas/EmbyReports.Api.Model.ReportGroup'
+            $ref: "#/components/schemas/EmbyReports.Api.Model.ReportGroup"
           type: array
         TotalRecordCount:
           format: int32
@@ -59756,7 +59756,7 @@ components:
           type: boolean
         Columns:
           items:
-            $ref: '#/components/schemas/EmbyReports.Api.Model.ReportItem'
+            $ref: "#/components/schemas/EmbyReports.Api.Model.ReportItem"
           type: array
         RowType:
           enum:
@@ -59971,7 +59971,7 @@ components:
           type: string
         Rows:
           items:
-            $ref: '#/components/schemas/EmbyReports.Api.Model.ReportRow'
+            $ref: "#/components/schemas/EmbyReports.Api.Model.ReportRow"
           type: array
       type: object
     Search.SearchHintResult:
@@ -60041,7 +60041,7 @@ components:
       properties:
         SearchHints:
           items:
-            $ref: '#/components/schemas/Search.SearchHint'
+            $ref: "#/components/schemas/Search.SearchHint"
           type: array
         TotalRecordCount:
           format: int32
@@ -60747,10 +60747,10 @@ components:
         CanSeek:
           type: boolean
         Item:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         NowPlayingQueue:
           items:
-            $ref: '#/components/schemas/QueueItem'
+            $ref: "#/components/schemas/QueueItem"
           type: array
         PlaylistItemId:
           type: string
@@ -60887,7 +60887,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/Sync.SyncJob'
+            $ref: "#/components/schemas/Sync.SyncJob"
           type: array
         TotalRecordCount:
           format: int32
@@ -61306,7 +61306,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/Sync.Model.SyncJobItem'
+            $ref: "#/components/schemas/Sync.Model.SyncJobItem"
           type: array
         TotalRecordCount:
           format: int32
@@ -61483,7 +61483,7 @@ components:
         MediaSourceId:
           type: string
         MediaSource:
-          $ref: '#/components/schemas/MediaSourceInfo'
+          $ref: "#/components/schemas/MediaSourceInfo"
         TargetId:
           type: string
         OutputPath:
@@ -61513,7 +61513,7 @@ components:
           type: string
         AdditionalFiles:
           items:
-            $ref: '#/components/schemas/Sync.Model.ItemFileInfo'
+            $ref: "#/components/schemas/Sync.Model.ItemFileInfo"
           type: array
         ItemDateModifiedTicks:
           format: int64
@@ -61932,10 +61932,10 @@ components:
           Id: 0
       properties:
         Job:
-          $ref: '#/components/schemas/Sync.SyncJob'
+          $ref: "#/components/schemas/Sync.SyncJob"
         JobItems:
           items:
-            $ref: '#/components/schemas/Sync.Model.SyncJobItem'
+            $ref: "#/components/schemas/Sync.Model.SyncJobItem"
           type: array
       type: object
     Sync.Model.SyncDialogOptions:
@@ -61973,7 +61973,7 @@ components:
       properties:
         Targets:
           items:
-            $ref: '#/components/schemas/Sync.SyncTarget'
+            $ref: "#/components/schemas/Sync.SyncTarget"
           type: array
         Options:
           items:
@@ -61988,11 +61988,11 @@ components:
           type: array
         QualityOptions:
           items:
-            $ref: '#/components/schemas/Sync.Model.SyncQualityOption'
+            $ref: "#/components/schemas/Sync.Model.SyncQualityOption"
           type: array
         ProfileOptions:
           items:
-            $ref: '#/components/schemas/Sync.Model.SyncProfileOption'
+            $ref: "#/components/schemas/Sync.Model.SyncProfileOption"
           type: array
       type: object
     Sync.Model.SyncQualityOption:
@@ -62257,7 +62257,7 @@ components:
           type: integer
         PathSubstitutions:
           items:
-            $ref: '#/components/schemas/Configuration.PathSubstitution'
+            $ref: "#/components/schemas/Configuration.PathSubstitution"
           type: array
         UninstalledPlugins:
           items:
@@ -62389,7 +62389,7 @@ components:
           type: integer
         CompletedInstallations:
           items:
-            $ref: '#/components/schemas/Updates.InstallationInfo'
+            $ref: "#/components/schemas/Updates.InstallationInfo"
           type: array
         CanSelfRestart:
           type: boolean
@@ -63442,9 +63442,9 @@ components:
           DeviceName: DeviceName
       properties:
         User:
-          $ref: '#/components/schemas/UserDto'
+          $ref: "#/components/schemas/UserDto"
         SessionInfo:
-          $ref: '#/components/schemas/Session.SessionInfo'
+          $ref: "#/components/schemas/Session.SessionInfo"
         AccessToken:
           type: string
         ServerId:
@@ -64033,7 +64033,7 @@ components:
           type: array
         ProfileAndLevelInformation:
           items:
-            $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.ProfileLevelInformation'
+            $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.ProfileLevelInformation"
           type: array
         Id:
           type: string
@@ -64072,9 +64072,9 @@ components:
           nullable: true
           type: integer
         MinBitRate:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate"
         MaxBitRate:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate"
         IsEnabledByDefault:
           type: boolean
         DefaultPriority:
@@ -64117,9 +64117,9 @@ components:
           Id: Id
       properties:
         Profile:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.ProfileInformation'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.ProfileInformation"
         Level:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.LevelInformation'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.LevelInformation"
       type: object
     MediaEncoding.Codecs.Common.Types.ProfileInformation:
       example:
@@ -64175,14 +64175,14 @@ components:
           nullable: true
           type: integer
         MaxBitRate:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.BitRate"
         MaxBitRateDisplay:
           type: string
         Id:
           type: string
         ResolutionRates:
           items:
-            $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.ResolutionWithRate'
+            $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.ResolutionWithRate"
           type: array
         ResolutionRateStrings:
           items:
@@ -64226,7 +64226,7 @@ components:
           format: double
           type: number
         Resolution:
-          $ref: '#/components/schemas/MediaEncoding.Codecs.Common.Types.Resolution'
+          $ref: "#/components/schemas/MediaEncoding.Codecs.Common.Types.Resolution"
       type: object
     MediaEncoding.Codecs.Common.Types.Resolution:
       example:
@@ -64270,7 +64270,7 @@ components:
     Providers.RemoteSearchQuery_Providers.TrailerInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.TrailerInfo'
+          $ref: "#/components/schemas/Providers.TrailerInfo"
         ItemId:
           format: int64
           type: integer
@@ -64364,16 +64364,16 @@ components:
         Overview:
           type: string
         AlbumArtist:
-          $ref: '#/components/schemas/RemoteSearchResult'
+          $ref: "#/components/schemas/RemoteSearchResult"
         Artists:
           items:
-            $ref: '#/components/schemas/RemoteSearchResult'
+            $ref: "#/components/schemas/RemoteSearchResult"
           type: array
       type: object
     Providers.RemoteSearchQuery_Providers.BookInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.BookInfo'
+          $ref: "#/components/schemas/Providers.BookInfo"
         ItemId:
           format: int64
           type: integer
@@ -64418,7 +64418,7 @@ components:
     Providers.RemoteSearchQuery_Providers.MovieInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.MovieInfo'
+          $ref: "#/components/schemas/Providers.MovieInfo"
         ItemId:
           format: int64
           type: integer
@@ -64461,7 +64461,7 @@ components:
     Providers.RemoteSearchQuery_Providers.SeriesInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.SeriesInfo'
+          $ref: "#/components/schemas/Providers.SeriesInfo"
         ItemId:
           format: int64
           type: integer
@@ -64508,7 +64508,7 @@ components:
     Providers.RemoteSearchQuery_Providers.GameInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.GameInfo'
+          $ref: "#/components/schemas/Providers.GameInfo"
         ItemId:
           format: int64
           type: integer
@@ -64551,7 +64551,7 @@ components:
     Providers.RemoteSearchQuery_Providers.BoxSetInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.BoxSetInfo'
+          $ref: "#/components/schemas/Providers.BoxSetInfo"
         ItemId:
           format: int64
           type: integer
@@ -64594,7 +64594,7 @@ components:
     Providers.RemoteSearchQuery_Providers.MusicVideoInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.MusicVideoInfo'
+          $ref: "#/components/schemas/Providers.MusicVideoInfo"
         ItemId:
           format: int64
           type: integer
@@ -64641,7 +64641,7 @@ components:
     Providers.RemoteSearchQuery_Providers.PersonLookupInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.PersonLookupInfo'
+          $ref: "#/components/schemas/Providers.PersonLookupInfo"
         ItemId:
           format: int64
           type: integer
@@ -64684,7 +64684,7 @@ components:
     Providers.RemoteSearchQuery_Providers.AlbumInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.AlbumInfo'
+          $ref: "#/components/schemas/Providers.AlbumInfo"
         ItemId:
           format: int64
           type: integer
@@ -64701,7 +64701,7 @@ components:
           type: array
         SongInfos:
           items:
-            $ref: '#/components/schemas/Providers.SongInfo'
+            $ref: "#/components/schemas/Providers.SongInfo"
           type: array
         Name:
           type: string
@@ -64776,7 +64776,7 @@ components:
     Providers.RemoteSearchQuery_Providers.ArtistInfo:
       properties:
         SearchInfo:
-          $ref: '#/components/schemas/Providers.ArtistInfo'
+          $ref: "#/components/schemas/Providers.ArtistInfo"
         ItemId:
           format: int64
           type: integer
@@ -64857,19 +64857,19 @@ components:
       properties:
         ParentalRatingOptions:
           items:
-            $ref: '#/components/schemas/ParentalRating'
+            $ref: "#/components/schemas/ParentalRating"
           type: array
         Countries:
           items:
-            $ref: '#/components/schemas/Globalization.CountryInfo'
+            $ref: "#/components/schemas/Globalization.CountryInfo"
           type: array
         Cultures:
           items:
-            $ref: '#/components/schemas/Globalization.CultureDto'
+            $ref: "#/components/schemas/Globalization.CultureDto"
           type: array
         ExternalIdInfos:
           items:
-            $ref: '#/components/schemas/ExternalIdInfo'
+            $ref: "#/components/schemas/ExternalIdInfo"
           type: array
       type: object
     Library.DeleteInfo:
@@ -68229,11 +68229,11 @@ components:
             Altitude: 4.258773108174356
       properties:
         ThemeVideosResult:
-          $ref: '#/components/schemas/ThemeMediaResult'
+          $ref: "#/components/schemas/ThemeMediaResult"
         ThemeSongsResult:
-          $ref: '#/components/schemas/ThemeMediaResult'
+          $ref: "#/components/schemas/ThemeMediaResult"
         SoundtrackSongsResult:
-          $ref: '#/components/schemas/ThemeMediaResult'
+          $ref: "#/components/schemas/ThemeMediaResult"
       type: object
     ThemeMediaResult:
       example:
@@ -69356,7 +69356,7 @@ components:
           type: integer
         Items:
           items:
-            $ref: '#/components/schemas/BaseItemDto'
+            $ref: "#/components/schemas/BaseItemDto"
           type: array
         TotalRecordCount:
           format: int32
@@ -69435,7 +69435,7 @@ components:
       properties:
         Images:
           items:
-            $ref: '#/components/schemas/RemoteImageInfo'
+            $ref: "#/components/schemas/RemoteImageInfo"
           type: array
         TotalRecordCount:
           format: int32
@@ -69519,7 +69519,7 @@ components:
           type: number
         Thumbnails:
           items:
-            $ref: '#/components/schemas/RokuMetadata.Api.ThumbnailInfo'
+            $ref: "#/components/schemas/RokuMetadata.Api.ThumbnailInfo"
           type: array
       type: object
     RokuMetadata.Api.ThumbnailInfo:
@@ -69797,7 +69797,7 @@ components:
       properties:
         MediaSources:
           items:
-            $ref: '#/components/schemas/MediaSourceInfo'
+            $ref: "#/components/schemas/MediaSourceInfo"
           type: array
         PlaySessionId:
           type: string
@@ -69839,7 +69839,7 @@ components:
         LiveStreamId:
           type: string
         DeviceProfile:
-          $ref: '#/components/schemas/Dlna.DeviceProfile'
+          $ref: "#/components/schemas/Dlna.DeviceProfile"
         EnableDirectPlay:
           type: boolean
         EnableDirectStream:
@@ -69872,7 +69872,7 @@ components:
       properties:
         Updates:
           items:
-            $ref: '#/components/schemas/Library.MediaUpdateInfo'
+            $ref: "#/components/schemas/Library.MediaUpdateInfo"
           type: array
       type: object
     Library.MediaUpdateInfo:
@@ -69887,7 +69887,7 @@ components:
         Id:
           type: string
         LibraryOptions:
-          $ref: '#/components/schemas/Configuration.LibraryOptions'
+          $ref: "#/components/schemas/Configuration.LibraryOptions"
       type: object
     Library.RenameVirtualFolder:
       properties:
@@ -69905,7 +69905,7 @@ components:
         Path:
           type: string
         PathInfo:
-          $ref: '#/components/schemas/Configuration.MediaPathInfo'
+          $ref: "#/components/schemas/Configuration.MediaPathInfo"
         RefreshLibrary:
           type: boolean
       type: object
@@ -70564,10 +70564,10 @@ components:
         CanSeek:
           type: boolean
         Item:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         NowPlayingQueue:
           items:
-            $ref: '#/components/schemas/QueueItem'
+            $ref: "#/components/schemas/QueueItem"
           type: array
         PlaylistItemId:
           type: string
@@ -71203,12 +71203,12 @@ components:
       properties:
         NowPlayingQueue:
           items:
-            $ref: '#/components/schemas/QueueItem'
+            $ref: "#/components/schemas/QueueItem"
           type: array
         PlaylistItemId:
           type: string
         Item:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         ItemId:
           type: string
         SessionId:
@@ -71837,12 +71837,12 @@ components:
         OriginalFileName:
           type: string
         Item:
-          $ref: '#/components/schemas/BaseItemDto'
+          $ref: "#/components/schemas/BaseItemDto"
         UserId:
           type: string
         AdditionalFiles:
           items:
-            $ref: '#/components/schemas/Sync.Model.ItemFileInfo'
+            $ref: "#/components/schemas/Sync.Model.ItemFileInfo"
           type: array
       type: object
     QueryResult_ActivityLogEntry:
@@ -71872,7 +71872,7 @@ components:
       properties:
         Items:
           items:
-            $ref: '#/components/schemas/ActivityLogEntry'
+            $ref: "#/components/schemas/ActivityLogEntry"
           type: array
         TotalRecordCount:
           format: int32
@@ -72035,7 +72035,7 @@ components:
         Name:
           type: string
         PathInfo:
-          $ref: '#/components/schemas/Configuration.MediaPathInfo'
+          $ref: "#/components/schemas/Configuration.MediaPathInfo"
       type: object
     PlaystateRequest:
       example:
